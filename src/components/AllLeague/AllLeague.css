@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.card {
+background: #002d73;
+}
+.card img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+.card h4{
+   font-weight: 500; 
+   font-size: 1.2rem;
+   font-family: 'Roboto', sans-serif;
+   color: aliceblue;
+}
+.card p{
+    font-weight: 300; 
+    font-size: .9rem;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,21 @@
+.nomatch{
+    height: 100vh;
+}
+.nomatch h1{
+    font-size: 8rem;
+}
+@media (max-width: 1024px) { 
+    .nomatch h1{
+        font-size: 7rem;
+    }
+ }
+@media (max-width: 768px) { 
+    .nomatch h1{
+        font-size: 5rem;
+    } 
+ }
+@media (max-width: 580px) { 
+    .nomatch h1{
+        font-size: 4rem;
+    }
+ }

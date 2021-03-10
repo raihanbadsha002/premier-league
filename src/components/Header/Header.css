@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.banner__Section{
+  background-image: linear-gradient(rgba(22, 18, 18, 0.5), rgba(0,0,0,0.5)) ,url(../../images/header.jpg);
+  height: 22rem;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner__Section > h1{
+    right: 35%;
+    top: 40%;
+    color:#cabcf7;
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    font-family: 'Lobster', cursive;
+}
+
+/* Media Q */
+@media (max-width: 1024px) { 
+    .banner__Section > h1{
+        right: 30%;
+        top: 40%;
+        font-size: 3rem;
+        
+    } 
+ }
+@media (max-width: 768px) { 
+    .banner__Section > h1{
+        right: 25%;
+        top: 40%;
+        font-size: 2.8rem;
+        
+    } 
+ }
+@media (max-width: 580px) { 
+    .banner__Section > h1{
+        right: 15%;
+        top: 40%;
+        font-size: 2.2rem;
+        
+    } 
+ }
