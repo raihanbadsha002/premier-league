@@ -2,13 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import male from  '../../images/male.png';
 import female from '../../images/female.png';
-import facebook from '../../images/Facebook.png';
-import  twitter from '../../images/Twitter.png';
-import youtube from '../../images/YouTube.png';
 
 import './LeagueDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFlagCheckered, faFutbol, faPodcast, faVenusMars,  faLongArrowAltLeft } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
 const LeagueDetails = () => {
@@ -50,10 +48,10 @@ const LeagueDetails = () => {
               <div>
                  <Link to="/" className="btn btn-info"><FontAwesomeIcon icon={faLongArrowAltLeft}/>  Back to home</Link>
               </div>
-              <div className="social d-flex justify-content-center">
-              <a href={`https://${strTwitter}`} target="_blank" rel="noreferrer"><img className="img-fluid" src={twitter} alt=""/></a>
-                <a href={`https://${strFacebook}`} target="_blank" rel="noreferrer"><img className="img-fluid" src={facebook} alt=""/></a>
-                <a href={`https://${strYoutube}`} target="_blank" rel="noreferrer"><img className="img-fluid" src={youtube} alt=""/></a>
+              <div className="social d-flex justify-content-center mt-3">
+                <a href={`https://${strTwitter}`} className="twitter__link" target="_blank" rel="noreferrer"><FontAwesomeIcon className=" twitter__icon" icon={faTwitter}/></a>
+                <a href={`https://${strFacebook}`} className="facebook__link" target="_blank" rel="noreferrer"><FontAwesomeIcon className=" facebook__icon" icon={faFacebookF}/></a>
+                <a href={`https://${strYoutube}`} className="youtube__link" target="_blank" rel="noreferrer"><FontAwesomeIcon className=" youtube__icon" icon={faYoutube}/></a>
               </div>
             </div>
           </div>
